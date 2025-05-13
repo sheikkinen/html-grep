@@ -1,0 +1,29 @@
+{
+  "name": "html-grep",
+  "version": "1.0.0",
+  "description": "A tool to extract HTML elements with specified IDs from HTML documents",
+  "main": "html-grep.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "grep",
+    "extraction",
+    "dom"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^22.1.0",
+    "minimist": "^1.2.8",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=14.16.0"
+  },
+  "bin": {
+    "html-grep": "./html-grep.mjs"
+  }
+}
